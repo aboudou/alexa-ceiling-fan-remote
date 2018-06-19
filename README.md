@@ -6,7 +6,7 @@ I named it "ceiling fan remote" because I made it to replace the IR remote of my
 
 
 You will need :
-* A Particle device (tested with Core, should work with others)
+* A Particle device (tested with Core, should work with others) : https://www.particle.io/
 * An IR LED
 * A NPN transistor (BC547 here)
 * A 100 ohms resistor
