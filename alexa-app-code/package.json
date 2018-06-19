@@ -1,0 +1,15 @@
+{
+  "name": "ceiling-fan-remote",
+  "version": "1.0.0",
+  "description": "Ceiling fan remote control",
+  "main": "index.js",
+  "author": "Arnaud Boudou",
+  "license": "BSD",
+  "alexa": {
+    "applicationId": "YOUR_ALEXA_APP_ID"
+  },
+  "dependencies": {
+    "alexa-app": "^2.1.0",
+    "particle-api-js": "^7.2.0"
+  }
+}

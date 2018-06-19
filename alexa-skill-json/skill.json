@@ -1,0 +1,49 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "ventilateur",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SetSpeedIntent",
+                    "slots": [
+                        {
+                            "name": "speed",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "avec puissance {speed}",
+                        "avec vitesse {speed}"
+                    ]
+                },
+                {
+                    "name": "SetLightIntent",
+                    "slots": [],
+                    "samples": [
+                        "avec lumière"
+                    ]
+                },
+                {
+                    "name": "SetDimmerIntent",
+                    "slots": [],
+                    "samples": [
+                        "avec variateur"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
