@@ -70,7 +70,9 @@ int cmdOnOff(String command) {
 
 
 int cmdDimmer(String command) {
-    sendFullMessage(frameDimmer);
+    for (int i = 0; i < 25; i++) {
+        sendFullMessage(frameDimmer);
+    }
     return 1;
 }
 
