@@ -18,8 +18,6 @@ Notes
 
 The code is made for french version of Alexa. You may have to change some files to adapt to your langage.
 
-The "dimmer" function does nothing. It send the correct sequence (according to SM5021 datasheets), but there's no result. I suspect an error with the datasheet, I need to check it with an oscilloscope.
-
 
 Video
 ==
