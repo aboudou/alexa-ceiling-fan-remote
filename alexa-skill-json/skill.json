@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "ventilateur",
+            "invocationName": "ventilateur plafond",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
@@ -24,22 +24,30 @@
                         }
                     ],
                     "samples": [
-                        "avec puissance {speed}",
-                        "avec vitesse {speed}"
+                        "mettre la vitesse {speed}"
                     ]
                 },
                 {
                     "name": "SetLightIntent",
                     "slots": [],
                     "samples": [
-                        "avec lumière"
+                        "changer l'éclairage",
+                        "changer la lumière"
                     ]
                 },
                 {
                     "name": "SetDimmerIntent",
                     "slots": [],
                     "samples": [
-                        "avec variateur"
+                        "changer le variateur"
+                    ]
+                },
+                {
+                    "name": "SetUsualIntent",
+                    "slots": [],
+                    "samples": [
+                        "mettre les réglages habituels",
+                        "utiliser les réglages habituels"
                     ]
                 }
             ],
