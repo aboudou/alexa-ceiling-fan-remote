@@ -11,7 +11,7 @@ app.id = require('./package.json').alexa.applicationId;
 const DEVICE_ID = "YOUR_DEVICE_ID";
 const TOKEN_ID = "YOUR_PARTICLE_ACCESS_TOKEN";
 
-const MSG_HELP = "Vous devez spécifier une commande, comme lumière, variateur ou vitesse de 0 à 3. Par exemple, Alexa, lance ventilateur avec lumière, ou Alexa, lance ventilateur avec vitesse 2";
+const MSG_HELP = "Vous devez spécifier une commande, comme lumière, variateur ou vitesse de 0 à 3. Par exemple, Alexa, demande au ventilateur de changer la lumière, ou Alexa, demande au ventilateur de mettre la vitesse 3";
 const MSG_PARTICLE_ERROR = "Une erreur s'est produite, veuillez recommencer ultérieurement";
 
 const MSG_SPEED_NONE = "La vitesse doit être comprise entre 0 et 3.";
